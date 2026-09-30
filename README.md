@@ -34,19 +34,21 @@ Commit after **each** task, with a clear message. Don't do everything in one com
 git push -u origin fix/<your-name>
 ```
 
-### 6. Check GitHub and submit
-Open your fork on GitHub, switch to your branch, and make sure your changes are there. Then send me the link to your branch:
+### 6. Open a Pull Request to the original repo
+Open your fork on GitHub. You should see a **Compare & pull request** button for your branch. (If not, click **Contribute**, then **Open pull request**.)
 
-```
-https://github.com/<your-username>/git-practice-homework/tree/fix/<your-name>
-```
+- Make sure the **base repository** is the original repo you forked from, and the base branch is `main`.
+- Set the title to `Homework: <your name>`.
+- Click **Create pull request**.
+
+That's your submission. There's no need to send a link.
 
 ---
 
 ## Tasks
 
 ### Task 1: Fill in `notes.txt`
-Open `notes.txt` and fill in your name. Then:
+Open `notes.txt` and fill in your name and batch. Then:
 
 ```bash
 git add notes.txt
@@ -84,8 +86,9 @@ git log --oneline # should show at least 3 commits of yours
 
 ---
 
-## Stretch challenge (optional)
-Open a **Pull Request** from your branch to the original repository. Title it `Homework: <your name>`. Don't worry if GitHub says there might be conflicts. That's a good thing to look at.
+## After you submit
+- If GitHub says your Pull Request has **conflicts**, that's normal here. Many people are editing the same files. Just take a look at what it shows.
+- If you're asked to change something, commit and push to the **same branch**. Your Pull Request updates by itself.
 
 ---
 
